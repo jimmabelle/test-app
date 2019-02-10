@@ -1,15 +1,15 @@
 import React from "react"
 
-class Footer extends React.Component {
+class Accessories extends React.Component {
 
   render() {
     return (
       <div>
-        Footer
+        Accessories
       </div>
     )
   }
 
 }
 
-export default Footer
+export default Accessories
