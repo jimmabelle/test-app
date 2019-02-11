@@ -6,6 +6,8 @@ import Shirts from "./shirts"
 import Accessories from "./accessories"
 import OurWorld from "./ourworld"
 
+import Header from "./header"
+
 import "./style.css"
 
 class App extends React.Component {
@@ -14,8 +16,9 @@ class App extends React.Component {
     return (
       <HashRouter>
         <div>
+          <Header />
           <Navigation />
-          <Route path="/" exact component={Shirts} />
+          <Route path="/shirts" exact component={Shirts} />
           <Route path="/accessories" component={Accessories} />
           <Route path="/ourworld" component={OurWorld} />
         </div>

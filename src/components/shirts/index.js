@@ -6,9 +6,7 @@ class Shirts extends React.Component {
   render() {
     return (
       <div className="Shirts">
-        <div>
-          Shirts
-        </div>
+        Shirts
       </div>
     )
   }
