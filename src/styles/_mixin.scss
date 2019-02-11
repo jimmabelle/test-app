@@ -1,0 +1,95 @@
+@mixin breakpoint_up($break) {
+	@if $break == 'xxxs' {
+		// small devices (small phone, iPhone 5)
+		@media (min-width: 320px) {
+			@content;
+		}
+	} @else if $break == 'xxs' {
+		// small devices (medium phone, 6/7/8)
+		@media (min-width: 375px) {
+			@content;
+		}
+	} @else if $break == 'xs' {
+		// small devices (large phone, 6/7/8 plus)
+		@media (min-width: 414px) {
+			@content;
+		}
+	} @elseif $break == 'sm' {
+		// small devices (small tablets, landscape phones)
+		@media (min-width: 576px) {
+			@content;
+		}
+	} @else if $break == 'md' {
+		// Medium devices (tablets)
+		@media (min-width: 768px) {
+			@content;
+		}
+	} @else if $break == 'lg' {
+		// Large devices (desktops)
+		@media (min-width: 992px) {
+			@content;
+		}
+	} @else if $break == 'xl' {
+		// Extra large devices (large desktops)
+		@media (min-width: 1200px) {
+			@content;
+		}
+	} @else {
+		// Custom
+		@media screen and ($break) {
+			@content;
+		}
+	}
+}
+
+@mixin breakpoint_down($break) {
+	@if $break == 'xxxs' {
+		// small devices (small phone, iPhone 5)
+		@media (max-width: 319.98px) {
+			@content;
+		}
+	} @else if $break == 'xxs' {
+		// small devices (medium phone, 6/7/8)
+		@media (max-width: 374.98px) {
+			@content;
+		}
+	} @else if $break == 'xs' {
+		// small devices (large phone, 6/7/8 plus)
+		@media (max-width: 413.98px) {
+			@content;
+		}
+	} @elseif $break == 'sm' {
+		// Small devices (small tablets, landscape phones)
+		@media (max-width: 575.98px) {
+			@content;
+		}
+	} @else if $break == 'md' {
+		// Medium devices (tablets)
+		@media (max-width: 767.98px) {
+			@content;
+		}
+	} @else if $break == 'lg' {
+		// Large devices (desktops)
+		@media (max-width: 991.98px) {
+			@content;
+		}
+	} @else if $break == 'xl' {
+		// Extra large devices (large desktops)
+		@media (max-width: 1199.98px) {
+			@content;
+		}
+	} @else {
+		// Custom
+		@media screen and ($break) {
+			@content;
+		}
+	}
+}
+
+@mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}

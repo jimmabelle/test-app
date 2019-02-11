@@ -1,0 +1,17 @@
+@import "../../styles/_variable.scss";
+
+.Navigation {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  margin: 0 auto;
+
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $_black;
+  }
+
+}

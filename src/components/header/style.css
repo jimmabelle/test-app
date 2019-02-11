@@ -1,0 +1,13 @@
+.Header {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px 0;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05); }
+  .Header span:last-child {
+    float: right; }
+  .Header .logo {
+    width: 70px; }
+  .Header .cart {
+    width: 16px;
+    padding-right: 10px; }
