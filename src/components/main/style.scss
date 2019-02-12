@@ -1,12 +1,10 @@
 @import "../../styles/_variable.scss";
-@import "../../styles/_mixin.scss";
 
-.Shirts {
-  background-color: $_gray;
+.Main {
   text-align: center;
   padding-bottom: 40px;
 
-  .transformation {
+  .essentials {
     width: 100%;
   }
 
@@ -31,13 +29,13 @@
     }
   }
 
-  .collection {
+  .shop{
     text-decoration: none;
     padding: 15px;
-    background-color: $_catalina-blue;
+    background-color: $_white;
     border: 1px solid $_catalina-blue;
-    color: $_white;
-    text-transform: uppercase;
+    color: $_black;
   }
+
 
 }

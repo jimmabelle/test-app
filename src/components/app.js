@@ -18,6 +18,7 @@ class App extends React.Component {
         <div>
           <Header />
           <Navigation />
+
           <Route path="/shirts" exact component={Shirts} />
           <Route path="/accessories" component={Accessories} />
           <Route path="/ourworld" component={OurWorld} />

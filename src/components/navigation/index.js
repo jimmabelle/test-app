@@ -8,10 +8,12 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <div className="Navigation">
-        <Link to="/Shirts">Shirts</Link>
-        <Link to="/Accessories">Accessories</Link>
-        <Link to="/OurWorld">Our World</Link>
+      <div>
+        <div className="Navigation">
+          <Link to="/Shirts">Shirts</Link>
+          <Link to="/Accessories">Accessories</Link>
+          <Link to="/OurWorld">Our World</Link>
+        </div>
       </div>
     )
   }

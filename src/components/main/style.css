@@ -1,28 +1,26 @@
-.Shirts {
-  background-color: #f2f2f2;
+.Main {
   text-align: center;
   padding-bottom: 40px; }
-  .Shirts .transformation {
+  .Main .essentials {
     width: 100%; }
-  .Shirts .headline {
+  .Main .headline {
     text-decoration: none;
     font-size: 26px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #000000; }
-  .Shirts div:nth-child(2) {
+  .Main div:nth-child(2) {
     padding: 30px;
     text-transform: uppercase; }
-    .Shirts div:nth-child(2) p {
+    .Main div:nth-child(2) p {
       font-size: 16px;
       line-height: 1.4;
       letter-spacing: 0;
       padding-top: 15px;
       padding-bottom: 15px; }
-  .Shirts .collection {
+  .Main .shop {
     text-decoration: none;
     padding: 15px;
-    background-color: #1B3359;
+    background-color: #ffffff;
     border: 1px solid #1B3359;
-    color: #ffffff;
-    text-transform: uppercase; }
+    color: #000000; }

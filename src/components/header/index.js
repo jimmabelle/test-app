@@ -9,14 +9,16 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div className="Header">
-        <span>
-          <img className="logo" src={logo} alt="logo" />
-        </span>
-        <span>
-          <img className="cart" src={cart} alt="cart" />
-          0 SEK
-        </span>
+      <div>
+        <div className="Header">
+          <span>
+            <img className="logo" src={logo} alt="logo" />
+          </span>
+          <span>
+            <img className="cart" src={cart} alt="cart" />
+            0 SEK
+          </span>
+        </div>
       </div>
     )
   }
