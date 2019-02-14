@@ -5,12 +5,10 @@
   .Item .grid {
     width: 100%; }
   .Item .item-text {
-    margin: 8px; }
+    margin: 8px;
+    line-height: 20px; }
     .Item .item-text .description {
       font-weight: 600;
       text-align: left; }
     .Item .item-text .price {
       text-align: left; }
-    .Item .item-text .descrition,
-    .Item .item-text .price {
-      line-height: 20px; }

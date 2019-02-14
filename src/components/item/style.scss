@@ -12,6 +12,7 @@
 
   .item-text {
     margin: 8px;
+    line-height: 20px;
 
     .description {
       font-weight: 600;
@@ -22,10 +23,6 @@
       text-align: left
     }
 
-    .descrition,
-    .price {
-      line-height: 20px;
-    }
   }
 
 }
