@@ -1,7 +1,7 @@
 import signature from "../images/jpg/30000045200_st.jpg"
-import twill from "../images/jpg/30007951100_st.jpg"
 import pink from "../images/jpg/34417951251_st.jpg"
 import blue from "../images/jpg/39957931125_st.jpg"
+import black from "../images/jpg/35487951118_st.jpg"
 
 export default [
   {
@@ -11,11 +11,11 @@ export default [
     url: "",
     image: signature
   }, {
-    id: "twill",
-    description: "White Twill Shirt With Navy Details",
-    price: 245,
-    url: "275",
-    image: twill
+    id: "black",
+    description: "Black Twill Stretch Shirt",
+    price: 265,
+    url: "",
+    image: black
   }, {
     id: "pink",
     description: "Pink Herringbone French Cuff Shirt",

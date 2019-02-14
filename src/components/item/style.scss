@@ -1,0 +1,26 @@
+.Item {
+  // padding-top: 30px;
+  margin: 10px;
+
+  span {
+    display: block;
+  }
+
+  .grid {
+    width: 100%;
+  }
+
+  .item-text {
+    margin: 8px;
+
+    .description {
+      font-weight: 600;
+      text-align: left;
+    }
+
+    .price {
+      text-align: left
+    }
+  }
+
+}

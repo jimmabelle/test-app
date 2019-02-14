@@ -26,18 +26,18 @@ class Main extends React.Component {
             <a className="shop" href="#">Shop now</a>
           </div>
         </div>
-        <div>
-          <span>Timeless must-haves</span>
-          <ul>
+        <div className="product">
+          <div className="headline">Timeless must-haves</div>
+          <div className="product-container">
             {product.map(item => (
-              <li key={item.id}>
+              <div className="product-inner" key={item.id}>
                 <Item
                   description={item.description}
                   price={item.price}
                   image={item.image} />
-              </li>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       </div>
     )

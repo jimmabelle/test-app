@@ -1,0 +1,13 @@
+.Item {
+  margin: 10px; }
+  .Item span {
+    display: block; }
+  .Item .grid {
+    width: 100%; }
+  .Item .item-text {
+    margin: 8px; }
+    .Item .item-text .description {
+      font-weight: 600;
+      text-align: left; }
+    .Item .item-text .price {
+      text-align: left; }
