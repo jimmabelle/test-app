@@ -11,3 +11,6 @@
       text-align: left; }
     .Item .item-text .price {
       text-align: left; }
+    .Item .item-text .descrition,
+    .Item .item-text .price {
+      line-height: 20px; }
