@@ -39,3 +39,16 @@
     flex-wrap: wrap; }
   .product .product-inner {
     width: 50%; }
+
+.shops {
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 -2px 0 rgba(0, 0, 0, 0.05);
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around; }
+  .shops .custom-select select {
+    border: none;
+    outline: none;
+    font-size: .9rem; }
+    .shops .custom-select select option {
+      background: transparent url(../../images/png/flag-eu-new.png);
+      background-position: 0 -46px; }

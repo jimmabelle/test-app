@@ -40,7 +40,6 @@
 }
 
 .product {
-
   width: 100%;
   text-align: center;
   padding: 50px 0;
@@ -62,3 +61,38 @@
   }
 
 }
+
+.shops {
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05),  0 -2px 0 rgba(0, 0, 0, 0.05);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+
+  .custom-select {
+      select {
+        border: none;
+        outline: none;
+        font-size: .9rem;
+        // background-image: url(../../images/png/flag-eu-new.png);
+        // background-repeat: no-repeat;
+        // padding-left: 20px;
+        // background-position: 0 -46px;
+        // height: 14px;
+        //@include sprite(../../images/png/flag-eu-new.png, 0, -46px, 14px, null)
+        // -webkit-appearance: none;
+
+        option {
+          background: transparent url(../../images/png/flag-eu-new.png);
+          // background-position: 0 -46px;
+          //@include sprite(../../images/png/flag-eu-new.png, 0, -46px, 14px, none)
+          //background-image: url(../../images/png/flag-eu-new.png);
+          // background-repeat: no-repeat;
+          // background-position: 0 -46px;
+          // height: 14px;
+          //padding-left: 20px;
+            background-position: 0 -46px;
+
+        }
+      }
+    }
+  }

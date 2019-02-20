@@ -1,10 +1,23 @@
 import React from "react"
 import Item from "../item"
+import Stores from "../stores"
+import Logga from "../logga"
+import CustomSelect from "../customselect"
 
 import "./style.css"
 
 import essentials from "../../images/jpg/essentials.jpg"
 import product from "../../data/products"
+import options from "../../data/countries"
+// <span className="custom-select">
+//   <select>
+//     {options.map(item => (
+//       <option key={item.id} value={item.value}>
+//         {item.country}
+//       </option>
+//     ))}
+//   </select>
+// </span>
 
 class Main extends React.Component {
 
@@ -38,6 +51,11 @@ class Main extends React.Component {
               </div>
             ))}
           </div>
+        </div>
+        <div className="shops">
+          <span><Stores /></span>
+          <span><Logga /></span>
+          <span><CustomSelect options={options} /></span>
         </div>
       </div>
     )

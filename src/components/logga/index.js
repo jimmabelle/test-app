@@ -1,15 +1,15 @@
 import React from "react"
 
-class Ourworld extends React.Component {
+class Logga extends React.Component {
 
   render() {
     return (
       <div>
-        OurWorld
+        Login
       </div>
     )
   }
 
 }
 
-export default Ourworld
+export default Logga

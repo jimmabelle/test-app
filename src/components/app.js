@@ -4,7 +4,7 @@ import Navigation from "./navigation"
 
 import Shirts from "./shirts"
 import Accessories from "./accessories"
-import OurWorld from "./ourworld"
+import Ourworld from "./ourworld"
 
 import Header from "./header"
 
@@ -21,7 +21,7 @@ class App extends React.Component {
 
           <Route path="/shirts" exact component={Shirts} />
           <Route path="/accessories" component={Accessories} />
-          <Route path="/ourworld" component={OurWorld} />
+          <Route path="/ourworld" component={Ourworld} />
         </div>
       </HashRouter>
     )

@@ -93,3 +93,12 @@
   bottom: $bottom;
   left: $left;
 }
+
+@mixin sprite($imgurl, $xpos, $ypos, $height, $width) {
+  background-image: url($imgurl);
+  background-position: $xpos $ypos;
+  display: block;
+  float: left;
+  height: $height;
+  width: $width; 
+}

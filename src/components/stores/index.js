@@ -1,15 +1,15 @@
 import React from "react"
 
-class Ourworld extends React.Component {
+class Stores extends React.Component {
 
   render() {
     return (
       <div>
-        OurWorld
+        Shops
       </div>
     )
   }
 
 }
 
-export default Ourworld
+export default Stores
