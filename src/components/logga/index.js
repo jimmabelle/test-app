@@ -1,10 +1,11 @@
 import React from "react"
+import "./style.css"
 
 class Logga extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="Logga">
         Login
       </div>
     )

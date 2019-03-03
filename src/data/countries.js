@@ -1,4 +1,54 @@
-import flag from "../images/png/flag-eu-new.png"
+import usa from "../images/png/flag-eu-new.png"
+import eng from "../images/png/flag2-eu-new.png"
+//
+// export default [
+//   {
+//     image: flag,
+//     country: [
+//       {
+//         id: "States",
+//         country: "United States",
+//         currency: "Usd",
+//         value: "states"
+//       }, {
+//         id: "English",
+//         country: "Eu & Ch - English",
+//         currency: "Eur",
+//         value: "english"
+//       }, {
+//         id: "Deautsch",
+//         country: "Eu & Ch - Deutsch",
+//         currency: "Eur",
+//         value: "deutsch"
+//       }, {
+//         id: "Site",
+//         country: "Global Site",
+//         currency: "",
+//         value: "site"
+//       }, {
+//         id: "Denmark",
+//         country: "Denmark",
+//         currency: "Dkk",
+//         value: "denmark"
+//       }, {
+//         id: "Sweden",
+//         country: "Sweden",
+//         currency: "Sek",
+//         value: "sweden"
+//       }, {
+//         id: "Canada",
+//         country: "Canada",
+//         currency: "Cad",
+//         value: "canada"
+//       }, {
+//         id: "Kingdom",
+//         country: "United Kingdom",
+//         currency: "Gbp",
+//         value: "kingdom"
+//       }
+//     ]
+//   }
+// ]
 
 export default [
   {
@@ -6,54 +56,47 @@ export default [
     country: "United States",
     currency: "Usd",
     value: "states",
-    photo: flag
+    image: usa
   }, {
     id: "English",
     country: "Eu & Ch - English",
     currency: "Eur",
     value: "english",
-    photo: flag
+    image: eng
   }, {
     id: "Deautsch",
     country: "Eu & Ch - Deutsch",
     currency: "Eur",
-    value: "deutsch",
-    photo: flag
+    value: "deutsch"
   }, {
     id: "Site",
     country: "Global Site",
     currency: "",
-    value: "site",
-    photo: flag
+    value: "site"
   }, {
     id: "Denmark",
     country: "Denmark",
     currency: "Dkk",
-    value: "denmark",
-    photo: flag
+    value: "denmark"
   }, {
     id: "Norway",
     country: "Norway",
     currency: "Nok",
-    value: "norway",
-    photo: flag
+    value: "norway"
   }, {
     id: "Sweden",
     country: "Sweden",
     currency: "Sek",
-    value: "sweden",
-    photo: flag
+    value: "sweden"
   }, {
     id: "Canada",
     country: "Canada",
     currency: "Cad",
-    value: "canada",
-    photo: flag
+    value: "canada"
   }, {
     id: "Kingdom",
     country: "United Kingdom",
     currency: "Gbp",
-    value: "kingdom",
-    photo: flag
+    value: "kingdom"
   }
 ]

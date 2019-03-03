@@ -1,18 +1,26 @@
 import React from "react"
 
+import "./style.css"
+
+// {data[0]}
 class CustomSelect extends React.Component {
 
   render() {
-    const select = this.props
+    const thisProps = this.props
+    // const thisState = this.state
+    const data = thisProps.listItems.map(item => (
+      <li key={item.indx} onClick={thisProps.toggleListOfData}>
+        {item.country}
+      </li>
+    ))
     return (
-      <div>
-        <select key={select.id}>
-          {select.options.map(item => (
-            <option key={item.id} value={item.value}>
-              {item.country}
-            </option>
-          ))}
-        </select>
+      <div className={`${thisProps.showData ? "" : "CustomSelect"}`}>
+        <ul role="article" className="selectedData">
+          {data[0]}
+        </ul>
+        <ul role="article" className="allData">
+          {data}
+        </ul>
       </div>
     )
   }
