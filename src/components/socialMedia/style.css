@@ -1,0 +1,17 @@
+.SocialMedia {
+  position: relative;
+  top: 50%;
+  left: 25%; }
+  .SocialMedia .facebook-icon,
+  .SocialMedia .instagram-icon,
+  .SocialMedia .youtube-icon {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/png/social-icons.png);
+    margin: 0 5px; }
+  .SocialMedia .instagram-icon {
+    background-position: 0 -51px; }
+  .SocialMedia .youtube-icon {
+    background-position: 0 -102px; }
