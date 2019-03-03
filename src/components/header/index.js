@@ -1,4 +1,6 @@
 import React from "react"
+import { Link } from "react-router-dom"
+import Navigation from "../navigation"
 
 import logo from "../../images/svg/logo.svg"
 import cart from "../../images/svg/cart.svg"
@@ -12,13 +14,16 @@ class Header extends React.Component {
       <div>
         <div className="Header">
           <span>
-            <img className="logo" src={logo} alt="logo" />
+            <Link to="/">
+              <img className="logo" src={logo} alt="logo" />
+            </Link>
           </span>
           <span>
             <img className="cart" src={cart} alt="cart" />
             0 SEK
           </span>
         </div>
+        <Navigation />
       </div>
     )
   }

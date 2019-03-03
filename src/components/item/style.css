@@ -9,6 +9,7 @@
     line-height: 20px; }
     .Item .item-text .description {
       font-weight: 600;
-      text-align: left; }
+      text-align: left;
+      font-family: "futura-pt", helvetica, arial, sans-serif; }
     .Item .item-text .price {
       text-align: left; }

@@ -1,7 +1,7 @@
 import React from "react"
 import { HashRouter, Route } from "react-router-dom"
-import Navigation from "./navigation"
 
+import Home from "./home"
 import Shirts from "./shirts"
 import Accessories from "./accessories"
 import Ourworld from "./ourworld"
@@ -17,9 +17,8 @@ class App extends React.Component {
       <HashRouter>
         <div>
           <Header />
-          <Navigation />
-
-          <Route path="/shirts" exact component={Shirts} />
+          <Route path="/" exact component={Home} />
+          <Route path="/shirts" component={Shirts} />
           <Route path="/accessories" component={Accessories} />
           <Route path="/ourworld" component={Ourworld} />
         </div>
