@@ -15,6 +15,7 @@ class Cards extends React.Component {
         <span><img src={mastercard} alt="mastercard" /></span>
         <span><img src={amex} alt="amex" /></span>
         <span><img src={paypal} alt="paypal" /></span>
+        <address className="copyright">© 2019 Eton. All rights reserved.</address>
       </div>
     )
   }
