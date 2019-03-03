@@ -11,8 +11,8 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div>
-        <div className="Header">
+      <div className="Header">
+        <div className="Container">
           <span>
             <Link to="/">
               <img className="logo" src={logo} alt="logo" />

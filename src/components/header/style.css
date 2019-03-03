@@ -1,13 +1,18 @@
 .Header {
-  width: 90%;
-  height: auto;
-  margin: 0 auto;
-  padding: 15px 0;
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05); }
-  .Header span:last-child {
-    float: right; }
-  .Header .logo {
-    width: 70px; }
-  .Header .cart {
-    width: 16px;
-    padding-right: 10px; }
+  width: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 1; }
+  .Header .Container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 15px 0;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05); }
+    .Header .Container span:last-child {
+      float: right; }
+    .Header .Container .logo {
+      width: 70px; }
+    .Header .Container .cart {
+      width: 16px;
+      padding-right: 10px; }

@@ -2,6 +2,12 @@
 @import "../../styles/_mixin.scss";
 
 .Header {
+  width: 100%;
+  background-color: $_white;
+  position: fixed;
+  z-index: 1;
+
+.Container {
   width: 90%;
   height: auto;
   margin: 0 auto;
@@ -20,5 +26,7 @@
     width: 16px;
     padding-right: 10px;
   }
+
+}
 
 }
