@@ -1,54 +1,5 @@
 import usa from "../images/png/flag-eu-new.png"
 import eng from "../images/png/flag2-eu-new.png"
-//
-// export default [
-//   {
-//     image: flag,
-//     country: [
-//       {
-//         id: "States",
-//         country: "United States",
-//         currency: "Usd",
-//         value: "states"
-//       }, {
-//         id: "English",
-//         country: "Eu & Ch - English",
-//         currency: "Eur",
-//         value: "english"
-//       }, {
-//         id: "Deautsch",
-//         country: "Eu & Ch - Deutsch",
-//         currency: "Eur",
-//         value: "deutsch"
-//       }, {
-//         id: "Site",
-//         country: "Global Site",
-//         currency: "",
-//         value: "site"
-//       }, {
-//         id: "Denmark",
-//         country: "Denmark",
-//         currency: "Dkk",
-//         value: "denmark"
-//       }, {
-//         id: "Sweden",
-//         country: "Sweden",
-//         currency: "Sek",
-//         value: "sweden"
-//       }, {
-//         id: "Canada",
-//         country: "Canada",
-//         currency: "Cad",
-//         value: "canada"
-//       }, {
-//         id: "Kingdom",
-//         country: "United Kingdom",
-//         currency: "Gbp",
-//         value: "kingdom"
-//       }
-//     ]
-//   }
-// ]
 
 export default [
   {

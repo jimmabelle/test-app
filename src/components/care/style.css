@@ -1,0 +1,7 @@
+.Care {
+  text-align: center; }
+  .Care span {
+    text-transform: uppercase;
+    display: block;
+    margin: .5rem;
+    font-weight: bold; }

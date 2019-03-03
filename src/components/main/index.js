@@ -5,6 +5,8 @@ import Logga from "../logga"
 import CustomSelect from "../customSelect"
 import SubscribeForm from "../subscribeForm"
 import SocialMedia from "../socialMedia"
+import Care from "../care"
+import Cards from "../cards"
 
 import "./style.css"
 
@@ -83,6 +85,12 @@ class Main extends React.Component {
         <div className="subscribe">
           <SubscribeForm />
           <SocialMedia />
+        </div>
+        <div className="care">
+          <Care />
+        </div>
+        <div className="cards">
+          <Cards />
         </div>
       </div>
     )
