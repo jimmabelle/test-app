@@ -1,9 +1,13 @@
 .Cards {
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.05);
+  padding: 30px 0; }
+
+.cards {
   text-align: center; }
-  .Cards span {
+  .cards span {
     display: inline-flex;
     width: 50px;
     margin: .3rem;
     justify-content: center; }
-  .Cards .copyright {
+  .cards .copyright {
     margin-top: 22px; }

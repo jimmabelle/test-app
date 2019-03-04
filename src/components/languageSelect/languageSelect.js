@@ -1,7 +1,7 @@
 import React from "react"
 import "./style.css"
 
-class CustomSelect extends React.Component {
+class LanguageSelect extends React.Component {
 
   render() {
     const thisProps = this.props
@@ -12,7 +12,7 @@ class CustomSelect extends React.Component {
       </li>
     ))
     return (
-      <div className={`${thisProps.showData ? "" : "CustomSelect"}`}>
+      <div className={`${thisProps.showData ? "" : "LanguageSelect"}`}>
         <ul role="article" className="selectedData">
           {data[0]}
         </ul>
@@ -25,4 +25,4 @@ class CustomSelect extends React.Component {
 
 }
 
-export default CustomSelect
+export default LanguageSelect

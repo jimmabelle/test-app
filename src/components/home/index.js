@@ -2,13 +2,11 @@ import React from "react"
 import Banner from "../banner/banner"
 import Items from "../items/items"
 import Shops from "../shops/shops"
-import Logga from "../logga"
-import CustomSelect from "../customSelect"
-
+import Log from "../log/log"
+import LanguageSelect from "../languageSelect/languageSelect"
 import Subscribe from "../subscribe/subscribe"
-
-import Care from "../care"
-import Cards from "../cards"
+import Care from "../care/care"
+import Cards from "../cards/cards"
 
 import "./style.css"
 
@@ -49,19 +47,15 @@ class Home extends React.Component {
         <Items />
         <div className="shops">
           <Shops />
-          <Logga />
-          <CustomSelect
+          <Log />
+          <LanguageSelect
             listItems={thisState.listItems}
             showData={thisState.showData}
             toggleListOfData={that.toggleListOfData} />
         </div>
         <Subscribe />
-        <div className="care">
-          <Care />
-        </div>
-        <div className="cards">
-          <Cards />
-        </div>
+        <Care />
+        <Cards />
       </div>
     )
   }

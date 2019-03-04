@@ -46,10 +46,10 @@
     right: -18px;
     top: 5px; }
 
-.CustomSelect {
+.LanguageSelect {
   position: relative;
   top: -3px; }
-  .CustomSelect .allData {
+  .LanguageSelect .allData {
     display: none; }
 
 .allData {

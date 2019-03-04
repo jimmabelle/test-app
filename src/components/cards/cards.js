@@ -11,11 +11,13 @@ class Cards extends React.Component {
   render() {
     return (
       <div className="Cards">
-        <span><img src={visa} alt="visa" /></span>
-        <span><img src={mastercard} alt="mastercard" /></span>
-        <span><img src={amex} alt="amex" /></span>
-        <span><img src={paypal} alt="paypal" /></span>
-        <address className="copyright">© 2019 Eton. All rights reserved.</address>
+        <div className="cards">
+          <span><img src={visa} alt="visa" /></span>
+          <span><img src={mastercard} alt="mastercard" /></span>
+          <span><img src={amex} alt="amex" /></span>
+          <span><img src={paypal} alt="paypal" /></span>
+          <address className="copyright">© 2019 Eton. All rights reserved.</address>
+        </div>
       </div>
     )
   }

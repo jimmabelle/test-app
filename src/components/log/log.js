@@ -1,11 +1,11 @@
 import React from "react"
 import "./style.css"
 
-class Logga extends React.Component {
+class Log extends React.Component {
 
   render() {
     return (
-      <div className="Logga">
+      <div className="Log">
         Login
       </div>
     )
@@ -13,4 +13,4 @@ class Logga extends React.Component {
 
 }
 
-export default Logga
+export default Log
