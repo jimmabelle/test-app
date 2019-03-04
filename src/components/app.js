@@ -2,9 +2,9 @@ import React from "react"
 import { HashRouter, Route } from "react-router-dom"
 
 import Home from "./home"
-import Shirts from "./shirts"
-import Accessories from "./accessories"
-import Ourworld from "./ourworld"
+import Shirts from "./navigationContent/shirts"
+import Accessories from "./navigationContent/accessories"
+import Ourworld from "./navigationContent/ourWorld"
 
 import Header from "./header"
 
