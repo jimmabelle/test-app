@@ -1,0 +1,32 @@
+.Banner {
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 100px; }
+  .Banner .essentials {
+    width: 100%; }
+  .Banner .headline {
+    text-decoration: none;
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000; }
+  .Banner div:nth-child(2) {
+    padding: 30px;
+    text-transform: uppercase; }
+    .Banner div:nth-child(2) p {
+      font-size: 16px;
+      line-height: 1.4;
+      letter-spacing: 0;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      font-family: Garamond, Georgia, "Times New Roman", serif;
+      text-transform: lowercase; }
+  .Banner .shop {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #1B3359;
+    color: #000000; }

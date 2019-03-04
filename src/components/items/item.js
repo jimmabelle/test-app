@@ -4,16 +4,16 @@ import "./style.css"
 class Item extends React.Component {
 
   render() {
-    const context = this.props
+    const thisProps = this.props
 
     return (
       <div className="Item">
-        <img className="grid" src={context.image} alt="shirts" />
+        <img className="grid" src={thisProps.image} alt="shirts" />
         <div className="item-text">
-          <span className="description">{context.description}</span>
+          <span className="description">{thisProps.description}</span>
           <span className="price">
             {"$"}
-            {context.price}
+            {thisProps.price}
           </span>
         </div>
       </div>

@@ -1,7 +1,12 @@
 @import "../../styles/_variable.scss";
 
-.SubscribeForm {
 
+.Subscribe {
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.05);
+  padding: 30px 0;
+}
+
+.SubscribeForm {
   .container {
     margin: 15px;
     position: relative;
@@ -27,4 +32,28 @@
       letter-spacing: 2px;
     }
   }
+}
+
+.SocialMedia {
+  text-align: center;
+  padding-top: 15px;
+
+    .facebook-icon,
+    .instagram-icon,
+    .youtube-icon {
+      display: inline-flex;
+      width: 50px;
+      height: 50px;
+      background-repeat: no-repeat;
+      background-image: url(../../images/png/social-icons.png);
+      margin: 0 5px;
+    }
+
+    .instagram-icon {
+      background-position: 0 -51px;
+    }
+
+    .youtube-icon {
+      background-position: 0 -102px;
+    }
 }

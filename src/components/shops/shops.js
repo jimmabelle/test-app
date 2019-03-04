@@ -1,7 +1,7 @@
 import React from "react"
 import "./style.css"
 
-class Stores extends React.Component {
+class Shops extends React.Component {
 
   render() {
     return (
@@ -13,4 +13,4 @@ class Stores extends React.Component {
 
 }
 
-export default Stores
+export default Shops

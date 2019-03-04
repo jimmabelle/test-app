@@ -1,8 +1,6 @@
 import React from "react"
-
 import "./style.css"
 
-// {data[0]}
 class CustomSelect extends React.Component {
 
   render() {

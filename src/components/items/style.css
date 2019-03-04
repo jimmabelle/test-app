@@ -1,0 +1,30 @@
+.Items {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0; }
+  .Items .headline {
+    text-transform: uppercase;
+    font-size: 26px;
+    width: 100%;
+    padding-bottom: 50px; }
+  .Items .product-container {
+    display: flex;
+    flex-wrap: wrap; }
+  .Items .product-inner {
+    width: 50%; }
+
+.Item {
+  margin: 10px; }
+  .Item .grid {
+    width: 100%; }
+  .Item span {
+    display: block; }
+  .Item .item-text {
+    margin: 8px;
+    line-height: 20px; }
+    .Item .item-text .description {
+      font-weight: 600;
+      text-align: left;
+      font-family: "futura-pt", helvetica, arial, sans-serif; }
+    .Item .item-text .price {
+      text-align: left; }

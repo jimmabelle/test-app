@@ -1,17 +1,16 @@
 import React from "react"
-import Item from "../item"
-import Shops from "../shops"
+import Banner from "../banner/banner"
+import Items from "../items/items"
+import Shops from "../shops/shops"
 import Logga from "../logga"
 import CustomSelect from "../customSelect"
-import SubscribeForm from "../subscribeForm"
-import SocialMedia from "../socialMedia"
+
+import Subscribe from "../subscribe/subscribe"
+
 import Care from "../care"
 import Cards from "../cards"
 
 import "./style.css"
-
-import essentials from "../../images/jpg/essentials.jpg"
-import product from "../../data/products"
 
 class Home extends React.Component {
   constructor(props) {
@@ -46,34 +45,8 @@ class Home extends React.Component {
     const that = this
     return (
       <div>
-        <div className="Main">
-          <div>
-            <img className="essentials" src={essentials} alt="essentials" />
-          </div>
-          <div>
-            <a className="headline" href="#">Eton Essentials</a>
-            <p>
-              Discover our most indispensablropse style essentials
-              and the obsession for quality and design that goes into creating them.
-            </p>
-          </div>
-          <div>
-            <a className="shop" href="#">Shop now</a>
-          </div>
-        </div>
-        <div className="product">
-          <div className="headline">Timeless must-haves</div>
-          <div className="product-container">
-            {product.map(item => (
-              <div className="product-inner" key={item.id}>
-                <Item
-                  description={item.description}
-                  price={item.price}
-                  image={item.image} />
-              </div>
-            ))}
-          </div>
-        </div>
+        <Banner />
+        <Items />
         <div className="shops">
           <Shops />
           <Logga />
@@ -82,10 +55,7 @@ class Home extends React.Component {
             showData={thisState.showData}
             toggleListOfData={that.toggleListOfData} />
         </div>
-        <div className="subscribe">
-          <SubscribeForm />
-          <SocialMedia />
-        </div>
+        <Subscribe />
         <div className="care">
           <Care />
         </div>
@@ -95,7 +65,6 @@ class Home extends React.Component {
       </div>
     )
   }
-
 }
 
 export default Home
