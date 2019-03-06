@@ -6,7 +6,7 @@ import Shirts from "./navigationContent/shirts"
 import Accessories from "./navigationContent/accessories"
 import Ourworld from "./navigationContent/ourWorld"
 
-import Header from "./header"
+import Header from "./header/header"
 
 import "./style.css"
 

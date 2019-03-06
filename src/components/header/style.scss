@@ -1,18 +1,19 @@
 @import "../../styles/_variable.scss";
 @import "../../styles/_mixin.scss";
 
-.Header {
+.Header,
+.HeaderEdit {
   width: 100%;
   background-color: $_white;
   position: fixed;
   z-index: 1;
 
-.Container {
-  width: 90%;
-  height: auto;
-  margin: 0 auto;
-  padding: 15px 0;
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
+  .Container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 15px 0;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
 
   span:last-child {
     float: right;
@@ -23,10 +24,76 @@
   }
 
   .cart {
-    width: 16px;
+    width: 17px;
     padding-right: 10px;
   }
 
 }
+
+.Navigation-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  margin: 0 auto;
+
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: $_black;
+    font-size: large;
+  }
+}
+
+.Piece {
+  width: 90%;
+  margin: 1.5rem auto 0 auto;
+  display: none;
+
+  div {
+    margin-bottom: 1rem;
+    float: left;
+    width: 50%;
+  }
+
+  span {
+    display: block;
+    margin-bottom: .3rem;
+  }
+
+  .title {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+}
+
+}
+
+.HeaderEdit {
+  background-color: $_catalina-blue;
+
+  .Container {
+    color: $_white;
+  }
+
+  .logo {
+    fill: $_white;
+  }
+
+  .Piece {
+    display: block;
+
+    span {
+      color: $_white;
+    }
+  }
+
+  .Navigation-container {
+    a {
+      color: $_white;
+    }
+  }
 
 }

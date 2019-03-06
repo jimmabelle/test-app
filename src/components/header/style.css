@@ -1,18 +1,69 @@
-.Header {
+.Header,
+.HeaderEdit {
   width: 100%;
   background-color: #ffffff;
   position: fixed;
   z-index: 1; }
-  .Header .Container {
+  .Header .Container,
+  .HeaderEdit .Container {
     width: 90%;
     height: auto;
     margin: 0 auto;
     padding: 15px 0;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05); }
-    .Header .Container span:last-child {
+    .Header .Container span:last-child,
+    .HeaderEdit .Container span:last-child {
       float: right; }
-    .Header .Container .logo {
+    .Header .Container .logo,
+    .HeaderEdit .Container .logo {
       width: 70px; }
-    .Header .Container .cart {
-      width: 16px;
+    .Header .Container .cart,
+    .HeaderEdit .Container .cart {
+      width: 17px;
       padding-right: 10px; }
+  .Header .Navigation-container,
+  .HeaderEdit .Navigation-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    margin: 0 auto; }
+    .Header .Navigation-container a,
+    .HeaderEdit .Navigation-container a {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: #000000;
+      font-size: large; }
+  .Header .Piece,
+  .HeaderEdit .Piece {
+    width: 90%;
+    margin: 1.5rem auto 0 auto;
+    display: none; }
+    .Header .Piece div,
+    .HeaderEdit .Piece div {
+      margin-bottom: 1rem;
+      float: left;
+      width: 50%; }
+    .Header .Piece span,
+    .HeaderEdit .Piece span {
+      display: block;
+      margin-bottom: .3rem; }
+    .Header .Piece .title,
+    .HeaderEdit .Piece .title {
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      font-weight: bold; }
+
+.HeaderEdit {
+  background-color: #1B3359; }
+  .HeaderEdit .Container {
+    color: #ffffff; }
+  .HeaderEdit .logo {
+    fill: #ffffff; }
+  .HeaderEdit .Piece {
+    display: block; }
+    .HeaderEdit .Piece span {
+      color: #ffffff; }
+  .HeaderEdit .Navigation-container a {
+    color: #ffffff; }
