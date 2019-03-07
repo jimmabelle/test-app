@@ -134,11 +134,13 @@
     color: #ffffff; }
     .HeaderEdit .Container .logo,
     .HeaderEdit .Container .cart {
-      fill: #ffffff !important; }
+      fill: #ffffff; }
   .HeaderEdit .SearchForm {
     display: block; }
     .HeaderEdit .SearchForm .magnifier {
-      fill: #ffffff !important; }
+      fill: #ffffff;
+      position: relative;
+      top: 1px; }
   .HeaderEdit .Piece {
     display: block; }
     .HeaderEdit .Piece span {
