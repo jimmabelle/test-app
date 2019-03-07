@@ -71,6 +71,14 @@
       font-weight: 600;
       color: #000000;
       font-size: large; }
+      @media (min-width: 320px) {
+        .Header .Navigation-container a,
+        .HeaderEdit .Navigation-container a {
+          font-size: medium; } }
+      @media (max-width: 319.98px) {
+        .Header .Navigation-container a,
+        .HeaderEdit .Navigation-container a {
+          font-size: large; } }
   .Header .Piece,
   .HeaderEdit .Piece {
     width: 90%;

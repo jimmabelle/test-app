@@ -85,6 +85,14 @@
     font-weight: 600;
     color: $_black;
     font-size: large;
+
+    @include breakpoint_up(xxxs) {
+      font-size: medium;
+    }
+
+    @include breakpoint_down(xxxs) {
+      font-size: large;
+    }
   }
 }
 
