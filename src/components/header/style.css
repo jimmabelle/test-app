@@ -2,6 +2,9 @@
 .HeaderEdit {
   width: 100%;
   background-color: #ffffff;
+  -webkit-position: fixed;
+  -ms-position: fixed;
+  -o-position: fixed;
   position: fixed;
   z-index: 1; }
   .Header .Container,
@@ -11,22 +14,46 @@
     margin: 0 auto;
     padding: 15px 0;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
+    -webkit-position: relative;
+    -ms-position: relative;
+    -o-position: relative;
     position: relative; }
     .Header .Container .logo,
     .HeaderEdit .Container .logo {
       width: 90px;
+      -webkit-position: absolute;
+      -ms-position: absolute;
+      -o-position: absolute;
       position: absolute; }
     .Header .Container .cart,
     .HeaderEdit .Container .cart {
       width: 25px;
+      -webkit-position: absolute;
+      -webkit-top: 10px;
+      -webkit-right: 60px;
+      -ms-position: absolute;
+      -ms-top: 10px;
+      -ms-right: 60px;
+      -o-position: absolute;
+      -o-top: 10px;
+      -o-right: 60px;
       position: absolute;
-      right: 60px;
-      top: 10px; }
+      top: 10px;
+      right: 60px; }
     .Header .Container .text,
     .HeaderEdit .Container .text {
+      -webkit-position: absolute;
+      -webkit-top: 17px;
+      -webkit-right: 5px;
+      -ms-position: absolute;
+      -ms-top: 17px;
+      -ms-right: 5px;
+      -o-position: absolute;
+      -o-top: 17px;
+      -o-right: 5px;
       position: absolute;
-      right: 5px;
       top: 17px;
+      right: 5px;
       text-transform: uppercase; }
   .Header .SearchForm,
   .HeaderEdit .SearchForm {

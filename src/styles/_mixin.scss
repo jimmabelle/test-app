@@ -87,12 +87,31 @@
 }
 
 @mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
+	-webkit-position: $position;
+	-webkit-top: $top;
+	-webkit-right: $right;
+	-webkit-bottom: $bottom;
+	-webkit-left: $left;
+
+	-ms-position: $position;
+	-ms-top: $top;
+	-ms-right: $right;
+	-ms-bottom: $bottom;
+	-ms-left: $left;
+
+	-o-position: $position;
+	-o-top: $top;
+	-o-right: $right;
+  -o-bottom: $bottom;
+  -o-left: $left;
+
   position: $position;
   top: $top;
   right: $right;
   bottom: $bottom;
   left: $left;
 }
+
 
 @mixin sprite($imgurl, $xpos, $ypos, $height, $width) {
   background-image: url($imgurl);
@@ -101,4 +120,4 @@
   float: left;
   height: $height;
   width: $width;
-} 
+}

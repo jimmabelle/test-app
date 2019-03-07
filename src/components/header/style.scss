@@ -5,7 +5,7 @@
 .HeaderEdit {
   width: 100%;
   background-color: $_white;
-  position: fixed;
+  @include position(fixed)
   z-index: 1;
 
   .Container {
@@ -15,24 +15,27 @@
     padding: 15px 0;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
 
-    position: relative;
+    @include position(relative)
 
     .logo {
       width: 90px;
-      position: absolute;
+      // position: absolute;
+      @include position(absolute)
     }
 
     .cart {
       width: 25px;
-      position: absolute;
-      right: 60px;
-      top: 10px;
+      // position: absolute;
+      // right: 60px;
+      // top: 10px;
+      @include position(absolute, 10px, 60px,)
     }
 
     .text {
-      position: absolute;
-      right: 5px;
-      top: 17px;
+      // position: absolute;
+      // right: 5px;
+      // top: 17px;
+      @include position(absolute, 17px, 5px)
       text-transform: uppercase;
     }
 
