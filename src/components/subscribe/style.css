@@ -6,27 +6,42 @@
   width: 90%;
   margin: 0 auto; }
   .SubscribeForm .container {
+    -webkit-position: relative;
+    -ms-position: relative;
+    -o-position: relative;
     position: relative;
     height: 40px; }
     .SubscribeForm .container .email {
+      -webkit-position: absolute;
+      -ms-position: absolute;
+      -o-position: absolute;
+      position: absolute;
       font-size: 1rem;
       border: 3px solid #1B3359;
       width: 100%;
       height: 100%;
-      position: absolute;
       outline: none; }
     .SubscribeForm .container .button {
       font-size: .9rem;
       text-transform: uppercase;
-      position: absolute;
       padding: 10px;
       background-color: #1B3359;
       border: 1px solid #1B3359;
       color: #ffffff;
       letter-spacing: 2px;
       height: 100%;
-      right: -2px;
+      -webkit-position: absolute;
+      -webkit-top: 4px;
+      -webkit-right: -2px;
+      -ms-position: absolute;
+      -ms-top: 4px;
+      -ms-right: -2px;
+      -o-position: absolute;
+      -o-top: 4px;
+      -o-right: -2px;
+      position: absolute;
       top: 4px;
+      right: -2px;
       outline: none; }
 
 .SocialMedia {
