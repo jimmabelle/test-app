@@ -44,7 +44,8 @@
       position: absolute;
       top: 0px;
       right: 0px;
-      outline: none; }
+      outline: none;
+      -webkit-appearance: none; }
 
 .SocialMedia {
   text-align: center;
