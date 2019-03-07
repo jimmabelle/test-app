@@ -116,4 +116,6 @@
     .HeaderEdit .Piece span {
       color: #ffffff; }
   .HeaderEdit .Navigation-container a {
+    color: #415575; }
+  .HeaderEdit .Navigation-container a:first-child {
     color: #ffffff; }

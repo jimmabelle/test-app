@@ -153,6 +153,10 @@
 
   .Navigation-container {
     a {
+      color: $_chambray;
+    }
+
+    a:first-child {
       color: $_white;
     }
   }
