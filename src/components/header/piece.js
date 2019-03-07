@@ -4,9 +4,7 @@ import "./style.css"
 class Piece extends React.Component {
 
   render() {
-    // const thisState = this.state
     const thisProps = this.props
-    console.log(thisProps.shirt)
     return (
       <div className="Piece">
         <div>

@@ -7,20 +7,56 @@
   .Header .Container,
   .HeaderEdit .Container {
     width: 90%;
-    height: auto;
+    height: 20px;
     margin: 0 auto;
     padding: 15px 0;
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05); }
-    .Header .Container span:last-child,
-    .HeaderEdit .Container span:last-child {
-      float: right; }
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
+    position: relative; }
     .Header .Container .logo,
     .HeaderEdit .Container .logo {
-      width: 70px; }
+      width: 90px;
+      position: absolute; }
     .Header .Container .cart,
     .HeaderEdit .Container .cart {
-      width: 17px;
-      padding-right: 10px; }
+      width: 25px;
+      position: absolute;
+      right: 60px;
+      top: 10px; }
+    .Header .Container .text,
+    .HeaderEdit .Container .text {
+      position: absolute;
+      right: 5px;
+      top: 17px;
+      text-transform: uppercase; }
+  .Header .SearchForm,
+  .HeaderEdit .SearchForm {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1.3rem;
+    display: none; }
+    .Header .SearchForm .container,
+    .HeaderEdit .SearchForm .container {
+      height: 40px;
+      position: relative;
+      border: 1px solid #12223b; }
+      .Header .SearchForm .container .search,
+      .HeaderEdit .SearchForm .container .search {
+        width: 100%;
+        height: 100%;
+        border: none;
+        outline: none;
+        padding-left: .3rem;
+        background-color: #12223b;
+        position: absolute; }
+      .Header .SearchForm .container .button,
+      .HeaderEdit .SearchForm .container .button {
+        position: absolute;
+        width: 40px;
+        border: none;
+        left: 7px;
+        top: 5px;
+        background: none;
+        outline: none; }
   .Header .Navigation-container,
   .HeaderEdit .Navigation-container {
     width: 90%;
@@ -42,7 +78,7 @@
     display: none; }
     .Header .Piece div,
     .HeaderEdit .Piece div {
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
       float: left;
       width: 50%; }
     .Header .Piece span,
@@ -58,9 +94,15 @@
 .HeaderEdit {
   background-color: #1B3359; }
   .HeaderEdit .Container {
+    box-shadow: 0 2px 0 rgba(255, 255, 255, 0.05);
     color: #ffffff; }
-  .HeaderEdit .logo {
-    fill: #ffffff; }
+    .HeaderEdit .Container .logo,
+    .HeaderEdit .Container .cart {
+      fill: #ffffff !important; }
+  .HeaderEdit .SearchForm {
+    display: block; }
+    .HeaderEdit .SearchForm .magnifier {
+      fill: #ffffff !important; }
   .HeaderEdit .Piece {
     display: block; }
     .HeaderEdit .Piece span {

@@ -9,15 +9,13 @@ class Navigation extends React.Component {
   render() {
     const thisProps = this.props
     return (
-      <div>
-        <div className="Navigation">
-          <div className="Navigation-container">
-            <Link to="/" onClick={thisProps.toggleList}>
-              Shirts
-            </Link>
-            <Link to="/">Accessories</Link>
-            <Link to="/">Our World</Link>
-          </div>
+      <div className="Navigation">
+        <div className="Navigation-container">
+          <Link to="/" onClick={thisProps.toggleList}>
+            Shirts
+          </Link>
+          <Link to="/">Accessories</Link>
+          <Link to="/">Our World</Link>
         </div>
       </div>
     )
